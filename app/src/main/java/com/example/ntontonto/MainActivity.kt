@@ -22,5 +22,15 @@ class MainActivity : AppCompatActivity() {
         }
         val view = binding.root
         setContentView(view)
+        init()
+        setLisners()
+    }
+
+    fun init() {
+
+    }
+
+    fun setLisners(){
+
     }
 }
