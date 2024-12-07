@@ -9,7 +9,7 @@ import com.example.ntontonto.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
-    var binding = ActivityMainBinding.inflate(layoutInflater)
+    private var binding = ActivityMainBinding.inflate(layoutInflater)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
